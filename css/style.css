@@ -1,18 +1,18 @@
 * {  box-sizing : border-box; }
 
 body {
-	background: url('../images/jaguar-xe.jpg') no-repeat top center; 
+	font-family: 'Roboto', sans-serif;
+	background: url('../images/jaguar-xe.jpg') no-repeat center fixed; 
 	background-size: cover;
 }
 
 .container {
 	background: rgba(0, 0, 0, 0.7);
-	font-family: 'Roboto', sans-serif;
-	font-size: 15px;
+	font-size: 18px;
 	border: 5px ;
-	border-radius: 5px;
-	width: 600px;
-	margin-top: 210px;
+	border-radius: 8px;
+	width: 400px;
+	margin-top: 80px;
 	margin-left: 90px;
 	padding: 20px 30px 30px;
 }
@@ -28,6 +28,16 @@ input {
 	text-align: center;
 	width: 150px;
 	height: 30px;
-	border-radius: 3px;
+	border-radius: 5px;
 	border: 1px red;
+	font-size: 15px;
+}
+
+@media (min-width: 768px) {
+
+	.container {
+		width: 600px;
+		background: cover;
+		
+	}
 }
